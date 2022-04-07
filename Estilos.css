@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+.wrapper, .Portafolio  {
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: #ffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.Brand {
+    margin-top: -7px;
+}
+
+.Brand span {
+    color: aqua;
+}
+
+.menu a {
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu .active {
+    color: aqua;
+}
+
+.menu a:hover {
+    background-color: bisque;
+    color: #191c32;
+    transition: ease-in .4s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+span {
+    color: aqua;
+}
+
+.Descarga {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.Descarga:hover {
+    background-color: bisque;
+    box-shadow: none;
+}
+
+.main img {
+    width: 350px;
+    border: 7px solid aqua;
+    height: 520px;
+
+}
+
+.Sobremi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.sobremi img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.info {
+    grid-column: 3/10;
+    padding: 3em;
+}
+
+.info h2 {
+    font-size: 2em;
+    color: #191c32;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 2em;
+}
+
+.Sobremi p {
+    margin-bottom: 1em;
+}
+
+.portafolio-hedings {
+    width: 100vw;
+    padding: 5em;
+}
+
+.portafolio-hedings h2 {
+    font-size: 2em;
+}
+
+.Portafolio .container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 10px;
+    width: 300px;
+    height: 450px;
+    background-color: cadetblue;
+    margin: 3em;
+}
+
+.card_img {
+    width: 300px;
+    height: 180px;
+    background-image: url(../img/HOJAS-INTERIOR-PARA-CARTA-MAXIN-A-4-_250-UDS0.jpg);
+    background-size: cover;
+}
+
+.card_title {
+    padding: 20px;
+    text-align: center;
+}
+
+.card_links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_links a {
+    color: #ffff;
+    text-decoration: none;
+
+}
+
+.card_links i {
+    font-size: 2.5em;
+}
+
+.card .project-Detalles {
+    display: flex;
+    margin: 1em;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+    align-self: center;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+}
+
+.card .project-Detalles a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.proyect-details-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+}
+
+.footer-content h2 {
+    font-size: 3em;
+}
+
+.footer-content h5,
+.social-network i{
+    font-size: 2em;
+    justify-content: center;
+}
+
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 300px;
+    margin-top: 1em;
+}
